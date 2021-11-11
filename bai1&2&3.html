@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniTest</title>
+</head>
+<body>
+    <h2>bài 3</h2>
+    <input type="text" name="soa" id="so1" placeholder="Nhập số a">
+    <input type="text" name="sob" id="so2" placeholder="Nhập sô b">
+    <button type="button" onclick="multi()">Tính</button>
+    <h1 id="result"></h1>
+    <script>
+    //     // bài 1 :
+    //     alert();
+    //     prompt();
+    //     confirm();
+    //     // cu phap hien thi ten minh
+    //     alert('Dương Trung');
+
+
+    //     // bài 2:
+    //     // câu lệnh nhận giá trị từ hộp thoạt
+    //     prompt();
+    //     confirm();
+    //     // Viết code 
+    //     let input = + prompt('Nhập số vào đây')
+    //     alert(input**2);
+        
+
+
+        //Bài 3:
+        function multi() {
+        let so1 = document.getElementById('so1').value;
+        let so2 = document.getElementById('so2').value;
+        document.getElementById('result').innerHTML = so1 * so2;
+        }
+    </script>
+</body>
+</html>
